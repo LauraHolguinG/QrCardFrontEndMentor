@@ -52,3 +52,8 @@ body{
         }
     }
 }
+@media only screen and (min-width: 320px) and (max-width: 736px){
+    .card{
+    max-width: 330px;
+}
+}

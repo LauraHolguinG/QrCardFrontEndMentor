@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: hsl(212deg, 45%, 89%);
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   padding: 20px;
   border-radius: 15px;
   max-width: 400px;
@@ -28,23 +28,29 @@ body {
   border-radius: 15px;
 }
 .card .card_title {
-  color: hsl(218deg, 44%, 22%);
+  color: hsl(218, 44%, 22%);
   padding: 1rem 1.2rem;
   text-align: center;
 }
 .card .card_description {
-  color: hsl(220deg, 15%, 55%);
+  color: hsl(220, 15%, 55%);
   padding: 1rem 1.2rem;
   text-align: center;
 }
 
 .attribution {
-  color: hsl(218deg, 44%, 22%);
+  color: hsl(218, 44%, 22%);
 }
 .attribution a {
   text-decoration: none;
-  color: hsl(220deg, 15%, 55%);
+  color: hsl(220, 15%, 55%);
 }
 .attribution a:hover {
-  color: hsl(218deg, 44%, 22%);
+  color: hsl(218, 44%, 22%);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+  .card {
+    max-width: 330px;
+  }
 }/*# sourceMappingURL=styles.css.map */
